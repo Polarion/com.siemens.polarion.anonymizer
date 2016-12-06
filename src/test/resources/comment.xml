@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module-comment>
+    <field id="author">Author</field>
+    <field id="created">2015-01-01 12:34:56.306 -0500</field>
+    <field id="resolved">true</field>
+    <field id="text" text-type="text/plain">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</field>
+</module-comment>
