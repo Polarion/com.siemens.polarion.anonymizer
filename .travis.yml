@@ -2,10 +2,3 @@ language: java
 
 jdk:
   - oraclejdk8
-
-deploy:
-  provider: releases
-  api_key: "ee93bcd3b470d64057422ef698e2dfd9cb6f9fcb"
-  file: "/home/travis/.m2/repository/com/siemens/polarion/anonymizer/anonymizer/1.0/anonymizer-1.0-dist.zip"
-  skip_cleanup: true
-
