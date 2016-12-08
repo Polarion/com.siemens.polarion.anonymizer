@@ -8,5 +8,4 @@ deploy:
   api_key: "f477f19cf75c77708b0d4c41474305e070f4f004"
   file: "/home/travis/.m2/repository/com/siemens/polarion/anonymizer/anonymizer/1.0/anonymizer-1.0-dist.zip"
   skip_cleanup: true
-  on:
-    tags: true
+
