@@ -6,20 +6,17 @@
     <format>zip</format>
   </formats>
   <files>
+  
     <file>
-      <source>
-        target/${project.artifactId}-${project.version}.jar
-      </source>
+      <source>target/${project.artifactId}-${project.version}.jar</source>
       <outputDirectory>/</outputDirectory>
+    </file>    
+    <file>
+    	<source>${project.basedir}/README.md</source>
+        <outputDirectory>/</outputDirectory>
+        <destName>README.txt</destName>
     </file>
+    
   </files>
-  <fileSets>
-    <fileSet>
-      <directory>${project.basedir}</directory>
-      <includes>
-        <include>README.txt</include>
-      </includes>
-     <outputDirectory>/</outputDirectory> 
-    </fileSet>
-  </fileSets>
+  
 </assembly>
